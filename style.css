@@ -1,0 +1,124 @@
+body{
+    margin: auto;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/background.jpg");
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 70px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #dcb37c;
+}
+nav a:hover{
+    scale: 1.1;
+}
+.textbg{
+    display: inline;
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+.container{
+    text-align: center;
+    width:60%;
+    margin: auto;
+}
+.row>div{
+    margin: 10px;
+}
+.row h1{
+    display: inline;
+    background: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+.row>p{
+    flex: 1;
+}
+#jas{
+    background: url("images/jas.jpg") no-repeat;
+    width: 521px;
+    height: 360px;
+    border-radius: 10px;
+}
+#jas2{
+    background: url("images/jas.jpg") no-repeat;
+    width: 521px;
+    height: 360px;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+}
+.f1{
+    flex:1;
+}
+.f2{
+    flex:2;
+}
+.f0\.2{
+    flex:0.5;
+}
+.zamene{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+#logofinki{
+    background-image: url("images/finki.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+#logomig{
+    background-image: url("images/mig.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+.datum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ver{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.ver>div{
+    margin: 5px;
+    flex: 1;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bb{
+    font-size: 30px;
+}
+.a>.row:first-child{
+    margin-top: 200px;
+}
+.a>.row{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
